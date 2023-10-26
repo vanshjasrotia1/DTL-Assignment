@@ -31,6 +31,7 @@ int binary_to_decimal(const char *binary) {
     return decimal;
 }
 
+                            
 // Function to convert decimal to binary
 void decimal_to_binary(int decimal) {
     int binary[32];
@@ -69,7 +70,7 @@ int main()
 	printf("%d\n",mult(a,b));
 	expo(a,b);
 	printf("%d\n",expo(a,b));
-
+	
 	printf("a to Binary:\n");
     decimal_to_binary(a);
     printf("b to Binary:\n");
